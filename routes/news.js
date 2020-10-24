@@ -9,7 +9,7 @@ async function scrapePage(source, url, parser) {
   if (parsedData) {
     return parsedData;
   } else {
-    console.log("Error encountered, unable to retrieve parsed data.")
+    return {};
   }
 }
 
